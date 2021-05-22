@@ -10,7 +10,7 @@ import Sponsorships from "../components/sponsorships/index.js"
 
 # Sponsorships
 
-Cloudflare powers over 20 million Internet properties, including these world-changing open-source projects.
+pvtool powers over 20 million Internet properties, including these world-changing open-source projects.
 
 <!-- p><Button type="primary" href="#apply">Apply for sponsorship</Button></p -->
 
