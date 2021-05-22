@@ -17,7 +17,7 @@ const SiteHeader = () => (
             logo={<CloudflareLogo/>}
             text={(
               <>
-                <span data-text="Cloudflare">Cloudflare</span>
+                <span data-text="pvtool">pvtool</span>
                 <span>&nbsp;</span>
                 <span data-text="Docs">Developers</span>
               </>
@@ -30,13 +30,13 @@ const SiteHeader = () => (
         <Link className="SiteHeader--nav-link" to="/docs">
           <span>Docs</span>
         </Link>
-        <Link className="SiteHeader--nav-link" to="/sponsorships">
+        <!--<Link className="SiteHeader--nav-link" to="/sponsorships">
           <span>Sponsorships</span>
-        </Link>
-        <a className="SiteHeader--nav-link" href="https://cloudflare.github.io">
+        </Link>-->
+        <a className="SiteHeader--nav-link" href="https://leafcolor.github.io">
           <span>Open Source</span>
         </a>
-        <a className="SiteHeader--nav-link" href="https://blog.cloudflare.com/serverlist/">
+        <a className="SiteHeader--nav-link" href="https://weibo.com/pvtool">
           <span>Newsletter</span>
         </a>
       </div>
