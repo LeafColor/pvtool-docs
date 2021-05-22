@@ -1,0 +1,14 @@
+name = "developers-pvtool-com"
+type = "webpack"
+account_id = "de3d96f009b57653880e5891598b8fd6" # pvtool-docs.leafcolor.workers.dev
+workers_dev = true
+
+[env.production]
+workers_dev = false
+account_id = "de3d96f009b57653880e5891598b8fd6" # pvtool-docs.leafcolor.workers.dev
+zone_id = "351cf9fc660523187714fa772ad5ca49"
+route = "https://developers.pvtool.com/*"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
