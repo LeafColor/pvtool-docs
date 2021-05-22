@@ -1,8 +1,8 @@
-# Contributing to Cloudflare's Documentation
+# Contributing to pvtool's Documentation
 
 ## Issues
 
-[Open an issue](https://github.com/cloudflare/cloudflare-docs/issues/new/choose) when something in the content is incorrect, out-of-date, or if the documentation doesn’t match the actual functionality. The items below are covered in our issue template.
+[Open an issue](https://github.com/leafcolor/pvtool-docs/issues/new/choose) when something in the content is incorrect, out-of-date, or if the documentation doesn’t match the actual functionality. The items below are covered in our issue template.
 
 * What is the expected behavior?
     * Link to the documentation or explain the expected outcome of following the documentation.
@@ -16,7 +16,7 @@
 
 ## Pull Requests
 
-Before proposing significant changes, open an issue so that we can discuss your approach first. Only members of the Cloudflare organization can open a pull request on the repository, and they should follow the same guidance on opening an issue for significant changes. If you’re not part of the Cloudflare organization but want to contribute, fork the repository and then create a pull request.
+Before proposing significant changes, open an issue so that we can discuss your approach first. Only members of the pvtool organization can open a pull request on the repository, and they should follow the same guidance on opening an issue for significant changes. If you’re not part of the pvtool organization but want to contribute, fork the repository and then create a pull request.
 
 ### Pull Request Guidelines
 
