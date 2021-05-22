@@ -47,13 +47,15 @@ jobs:
       - name: Publish staging
         uses: cloudflare/wrangler-action@1.2.0
         with:
-          apiToken: ${{ secrets.CF_API_TOKEN }}
+          #apiToken: ${{ secrets.CF_API_TOKEN }}
+          apiToken: "Q_V258U5P-o064hrWWjZ0DMJIZwhBHXNIMgGPyjo"
           workingDirectory: "developers.pvtool.com"
           wranglerVersion: '1.13.0'
       - name: Publish production
         uses: cloudflare/wrangler-action@1.2.0
         with:
-          apiToken: ${{ secrets.CF_API_TOKEN }}
+          #apiToken: ${{ secrets.CF_API_TOKEN }}
+          apiToken: "Q_V258U5P-o064hrWWjZ0DMJIZwhBHXNIMgGPyjo"
           workingDirectory: "developers.pvtool.com"
           environment: "production"
           wranglerVersion: '1.13.0'
