@@ -30,9 +30,6 @@ const SiteHeader = () => (
         <Link className="SiteHeader--nav-link" to="/docs">
           <span>Docs</span>
         </Link>
-        <!--<Link className="SiteHeader--nav-link" to="/sponsorships">
-          <span>Sponsorships</span>
-        </Link>-->
         <a className="SiteHeader--nav-link" href="https://leafcolor.github.io">
           <span>Open Source</span>
         </a>
