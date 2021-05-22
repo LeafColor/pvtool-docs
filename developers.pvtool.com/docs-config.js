@@ -9,8 +9,9 @@ module.exports = {
     url: "https://pvtool.com"
   }],
   search: {
-    indexName: "",
+    indexName: "pvtool-docs",
     apiKey: "",
+    apiToken: "dBgCcdGmUiNz9pRwVvV77dK9UQsRjNtcp-HzTgOL",
     algoliaOptions: { "facetFilters": "" }
   },
   siteMetadata: {
