@@ -4,38 +4,7 @@ import "../css/components/product-grid.css"
 
 const $ = {}
 $["1.1.1.1"]              = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/1.1.1.1.js").pathD
-$["analytics"]            = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/analytics.js").pathD
 $["api"]                  = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/api.js").pathD
-$["automatic-platform-optimization"]   = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/automatic-platform-optimization.js").pathD
-$["bots"]                 = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/bots.js").pathD
-$["byoip"]                = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/byoip.js").pathD
-$["cloudflare-for-teams"] = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/cloudflare-for-teams.js").pathD
-$["cloudflare-one"]       = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/cloudflare-one.js").pathD
-$["distributed-web"]      = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/distributed-web.js").pathD
-$["firewall"]             = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/firewall.js").pathD
-$["http3"]                = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/http3.js").pathD
-$["images"]               = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/images.js").pathD
-$["fundamentals"]         = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/fundamentals.js").pathD
-$["load-balancing"]       = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/load-balancing.js").pathD
-$["logs"]                 = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/logs.js").pathD
-$["magic-transit"]        = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/magic-transit.js").pathD
-$["network-interconnect"] = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/network-interconnect.js").pathD
-$["pages"]                = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/pages.js").pathD
-$["page-shield"]          = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/page-shield.js").pathD
-$["railgun"]              = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/railgun.js").pathD
-$["randomness-beacon"]    = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/randomness-beacon.js").pathD
-$["registrar"]            = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/registrar.js").pathD
-$["rules"]                = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/rules.js").pathD
-$["spectrum"]             = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/spectrum.js").pathD
-$["ssl"]                  = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/ssl.js").pathD
-$["stream"]               = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/stream.js").pathD
-$["tenant"]               = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/tenant.js").pathD
-$["terraform"]            = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/terraform.js").pathD
-$["time-services"]        = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/time-services.js").pathD
-$["waf"]                  = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/waf.js").pathD
-$["waiting-room"]         = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/waiting-room.js").pathD
-$["warp-client"]          = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/warp-client.js").pathD
-$["workers"]              = require("@cloudflare/cloudflare-brand-assets/resources/product-icons/workers.js").pathD
 
 const products = [
   {
@@ -44,175 +13,14 @@ const products = [
     icon: "api",
   },
   {
-    title: "Analytics",
-    path: "analytics",
-    icon: "analytics",
-  },
-  {
     title: "Apps",
-    href: "https://www.cloudflare.com/apps/docs",
+    href: "https://www.pvtool.com/apps/docs",
     icon: "api", // TODO: add `apps` icon to https://github.com/cloudflare/cloudflare-brand-assets
-  },
-  {
-    title: "Automatic Platform Optimization",
-    path: "automatic-platform-optimization",
-    icon: "automatic-platform-optimization",
-    wrap: true,
-  },
-  // {
-  //   title: "Cloudflare One",
-  //   path: "cloudflare-one",
-  //   icon: "cloudflare-one",
-  // },
-  {
-    title: "Bots",
-    path: "bots",
-    icon: "bots",
-  },
-  {
-    title: "BYOIP",
-    path: "byoip",
-    icon: "byoip",
-  },
-  {
-    title: "Cloudflare for Teams",
-    path: "cloudflare-one",
-    icon: "cloudflare-for-teams",
-    wrap: true,
   },
   {
     title: "DNS Resolver",
     path: "1.1.1.1",
     icon: "1.1.1.1",
-  },
-  {
-    title: "Distributed Web Gateway",
-    path: "distributed-web",
-    icon: "distributed-web",
-    wrap: true,
-  },
-  {
-    title: "Firewall Rules",
-    path: "firewall",
-    icon: "firewall",
-  },
-  {
-    title: "HTTP/3",
-    path: "http3",
-    icon: "http3",
-  },
-  {
-    title: "Image Resizing",
-    path: "images",
-    icon: "images",
-  },
-  {
-    title: "Cloudflare Fundamentals",
-    path: "fundamentals",
-    icon: "fundamentals",
-    wrap: true
-  },
-  {
-    title: "Load Balancing",
-    path: "load-balancing",
-    icon: "load-balancing",
-  },
-  {
-    title: "Logs",
-    path: "logs",
-    icon: "logs",
-  },
-  {
-    title: "Magic Transit",
-    path: "magic-transit",
-    icon: "magic-transit",
-  },
-  {
-    title: "Network Interconnect",
-    path: "network-interconnect",
-    icon: "network-interconnect",
-    wrap: true,
-  },
-  {
-    title: "Pages",
-    path: "pages",
-    icon: "pages",
-  },
-  {
-    title: "Page Shield",
-    path: "page-shield",
-    icon: "page-shield",
-  },
-  {
-    title: "Railgun",
-    href: "https://www.cloudflare.com/docs/railgun/",
-    icon: "railgun",
-  },
-  {
-    title: "Randomness Beacon",
-    path: "randomness-beacon",
-    icon: "randomness-beacon",
-    wrap: true,
-  },
-  {
-    title: "Registrar",
-    path: "registrar",
-    icon: "registrar",
-  },
-  {
-    title: "Rules",
-    path: "rules",
-    icon: "rules",
-  },
-  {
-    title: "Spectrum",
-    path: "spectrum",
-    icon: "spectrum",
-  },
-  {
-    title: "SSL",
-    path: "ssl",
-    icon: "ssl",
-  },
-  {
-    title: "Stream",
-    path: "stream",
-    icon: "stream",
-  },
-  {
-    title: "Tenant",
-    path: "tenant",
-    icon: "tenant",
-  },
-  {
-    title: "Terraform",
-    path: "terraform",
-    icon: "terraform",
-  },
-  {
-    title: "Time Services",
-    path: "time-services",
-    icon: "time-services",
-  },
-  {
-    title: "WAF",
-    path: "waf",
-    icon: "waf",
-  },
-  {
-    title: "Waiting Room",
-    path: "waiting-room",
-    icon: "waiting-room",
-  },
-  {
-    title: "WARP Client",
-    path: "warp-client",
-    icon: "warp-client",
-  },
-  {
-    title: "Workers",
-    path: "workers",
-    icon: "workers",
   },
 ]
 

@@ -7,7 +7,7 @@ workers_dev = true
 workers_dev = false
 account_id = "de3d96f009b57653880e5891598b8fd6" # developers-pvtool-docs.leafcolor.workers.dev
 zone_id = "7c51ebd9c209329d4cf2d4bb3eb5c4b6"
-route = "https://developers.pvtool.com/pvtool-docs"
+route = "https://developers.pvtool.com/*"
 
 [site]
 bucket = "./public"
